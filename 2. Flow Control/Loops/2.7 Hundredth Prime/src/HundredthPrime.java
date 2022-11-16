@@ -2,10 +2,12 @@ public class HundredthPrime
 {
    public static void main(String[] args)
    {
-      long start = System.nanoTime();
-      int count = 0;
+      long start = System.nanoTime(); // Start time execution
+      int count = 1;
       int num = 1;
       int verif;
+                        /****    First Method *************/
+      /* execution time 0.9 ms to determine the hundredth prime number*/
      /* while (count < 100)
       {
          num++;
@@ -22,11 +24,20 @@ public class HundredthPrime
             }
          }
       }*/
-      while(count < 100){
+
+                      /****   Second Method   *********/
+      /* execution time 0.2 ms to determine the hundredth prime number*/
+      while(count <= 100){
+         int i = 1;
          num++;
          verif = 0;
-         for (int i = 1; i <= num; i++){
-            if (num % i == 0){
+        /* if (num > 10000 ){
+            i = num/2;
+            verif++;
+         }*/
+         for (; i <= num; i++){
+
+            if (num % i == 0 ){
                verif++;
                if (verif == 2 && i < num){
                   verif =0;
@@ -38,8 +49,9 @@ public class HundredthPrime
             count++;
          }
       }
-      long end = System.nanoTime();
-      System.out.println((end - start)/1e6);
-      System.out.println(num);
+      long end = System.nanoTime(); // end time execution
+      double time = (end - start)/1e6;
+      System.out.println(time + " ms"); //  time to execute the program
+      System.out.println(num); // print the hundredth prime number
    }
 }

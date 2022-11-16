@@ -18,5 +18,6 @@ public class Constructors
 
       //let's see if it worked
       System.out.println("My thing's label is " + thing.label);
+
    }
 }

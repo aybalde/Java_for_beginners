@@ -12,8 +12,20 @@ public class Meal
     }
 
     //Instance methods//
-   /* Complete the method makeItACombo */}
+   public void makeItACombo(){
+        cost += 3;
+   }
 
-   /* Complete the method getBill */}
+   public String getBill(){
+       //System.out.println(name + " with fries and soda $" + cost);
+       return name + " with fries and soda, $" + cost;
+   }
+   public static void main(String[] args){
+        Meal plate = new Meal("Burguer",6.99);
+        plate.makeItACombo();
+        System.out.println(plate.cost);
+        String menu = plate.getBill();
+        System.out.println(menu);
 
+   }
 }
