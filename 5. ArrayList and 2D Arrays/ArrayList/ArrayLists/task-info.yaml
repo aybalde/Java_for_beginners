@@ -1,0 +1,9 @@
+type: theory
+files:
+- name: src/ArrayLists.java
+  visible: true
+  encrypted_text: NYgHoNruO3t7vIi6YFhoHxH37ZG/WYlXa0mgFu3cSmSH5maJ6j3DsNPEViCUp3VkxMGssXrTONETK0CgJD/Cwh6UvYaDkbN0vvAla+GH6ggaKVqdpUnu6ntwulIdcvOOQezq1Vr+a8w6yC1KCYXrEz4TglT/tmPhp0Lgz663+JUl4kNifwCVrLXyWU/1bb/ANThAJkWoBj87QITsvn5GU5YBT/uB5JZADE63SGDmeS4IAj2TbYlTK7OKesOITAyWKzLji7hwqRo0fK6yMkGOuhVqZipzuFnMJvhJjLddNzC9BVw6GyyImBOYCsw6FmF8Lz6x7c8ebxhVsz9wxDgu3WUZvkudiXpDp3QXeQOFIeVuGz0le8mFz4wrfN8e+f3lsTaYCvy+eBCqy3s/s/VzqLmS1axSmiALJWuLaY0dH71RJl5fY9lwcGpDJv3vppeECyzvRSmhgjQ+04/O9oVvdwgiBcjp/ZnixVuGghlQ5LO+8bKNwi2TctU/IM9fNrT327meqAAdNCu4KjRbfxB+JOLo3LhqDDPmJDoMnGOGpQ6DmgnUrcgUHaIfvsI+dV6G
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true
