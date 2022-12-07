@@ -1,4 +1,7 @@
 public class WordCutter
 {
-    /* Code the cutInHalf method that returns the first half of the word input. */
+    public static String cutInHalf(String word){
+        return word.substring(0,word.length()/2);
+    }
+
 }
